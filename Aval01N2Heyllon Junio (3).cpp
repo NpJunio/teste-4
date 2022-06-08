@@ -2,19 +2,25 @@
 #include <iomanip>
 using namespace std;
 int main(){
+	
+	
+	//Hello World!!!
+	
+	
+	
 	setlocale (LC_ALL,"");
-	//Heyllon Júnio
+	//Heyllon JÃºnio
 	float altura,MM=0,MH=0,MAXH=-1,MAXM=-1,MINM=10,MINH=10;//MM e MH=media ,MAXH e MAXM=maior altura, MINM e MINH=menor altura
 	int C,CM=0,CH=0,N; //CM e CH=contagem de pessoas
 	string Sexo, Repetir="S";
 	
 	while(Repetir=="S"||Repetir=="s"){//verificar ser quer repetir o programa
 		cout<<"Quantas pessoas quer ler: ";
-			cin>>N;//quantas pessoas vão ser lidas
+			cin>>N;//quantas pessoas vÃ£o ser lidas
 	MM=0,MH=0,MAXH=-1,MAXM=-1,MINM=10,MINH=10,CM=0,CH=0;//zera os valores
 	
 	
-	for(C=1;C<=N;C++)//cria a repetição
+	for(C=1;C<=N;C++)//cria a repetiÃ§Ã£o
 {
 	cout<<"\nDigite M para Sexo Masculino";
 	cout<<"\nDigite F para Sexo Feminino\n";
@@ -61,9 +67,9 @@ int main(){
 			MM=MM/CM;//media feminina
 			if(MINH<MINM)//verifica qual sexo tem menor altura
 		{
-			cout<<"\nA menor altura do grupo é: "<<MINH;
+			cout<<"\nA menor altura do grupo Ã©: "<<MINH;
 		}else{
-		cout<<"\nA menor altura do grupo é:"<<MINM;
+		cout<<"\nA menor altura do grupo Ã©:"<<MINM;
 			}
 				
 				cout<<"\n\nMedia de altura das mulher:"<<MM;//media de altura das mulheres
@@ -71,12 +77,12 @@ int main(){
 		
 		if(MAXH>MAXM)//verifica qual sexo tem maior altura
 		{
-			cout<<"\n\nO maior do grupo é um homem";
+			cout<<"\n\nO maior do grupo Ã© um homem";
 		}else{
-			cout<<"\n\nO maior do grupo é um mulher";
+			cout<<"\n\nO maior do grupo Ã© um mulher";
 		}
 			
-	cout<<"\n\n\n\nDeseja continuar S para sim e N para não : ";//pergunta se deseja repetir o programa
+	cout<<"\n\n\n\nDeseja continuar S para sim e N para nÃ£o : ";//pergunta se deseja repetir o programa
 		cin>>Repetir;
 		system("cls");//para limpar a tela
 	}
