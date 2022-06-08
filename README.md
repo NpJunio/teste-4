@@ -1,2 +1,2 @@
 # teste-4
-Exemplo
+Adicionado arquivo prava
